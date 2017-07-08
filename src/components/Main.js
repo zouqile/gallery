@@ -171,7 +171,7 @@ var AppComponent = React.createClass({
       vPosRangeX = vPosRange.x,
 
       imgsArrangeTopArr = [],
-      topImgNum = Math.ceil(Math.random() * 2),//取一个或者不取
+      topImgNum = Math.floor(Math.random() * 2),//取一个或者不取
       topImgSpliceIndex = 0,
       imgsArrangeCenterArr = imgsArrangeArr.splice(centerIndex, 1);
 
